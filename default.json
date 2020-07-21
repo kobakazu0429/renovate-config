@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "config:base",
+    ":separateMultipleMajorReleases",
+    "github>kobakazu0429/renovate-config:automergePin",
+    "github>kobakazu0429/renovate-config:automergePatchGrouping",
+    "github>kobakazu0429/renovate-config:automergeTypesMinor",
+    "github>kobakazu0429/renovate-config:groupJest"
+  ],
+  "labels": ["renovate"]
+}
