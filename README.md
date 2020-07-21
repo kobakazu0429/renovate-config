@@ -17,5 +17,5 @@ touch renovate.json
 or
 
 ```bash
-wget https://raw.githubusercontent.com/kobakazu0429/renovate-config/master/renovate.json -O renovate.json
+wget https://raw.githubusercontent.com/kobakazu0429/renovate-config/master/template.json -O renovate.json
 ```
