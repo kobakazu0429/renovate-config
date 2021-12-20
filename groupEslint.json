@@ -1,0 +1,9 @@
+{
+  "packageRules": [
+    {
+      "groupName": "eslint",
+      "matchPackageNames": ["eslint"],
+      "matchPackagePatterns": ["^@kobakazu0429/eslint-config-"]
+    }
+  ]
+}
