@@ -3,7 +3,7 @@
     {
       "groupName": "eslint",
       "matchPackageNames": ["eslint"],
-      "matchPackagePatterns": ["^@kobakazu0429/eslint-config-"]
+      "matchPackagePrefixes": ["@kobakazu0429/eslint-config-"]
     }
   ]
 }
