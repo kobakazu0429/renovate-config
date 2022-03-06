@@ -18,9 +18,14 @@
     "extends": [
       ":automergePatch",
       ":noUnscheduledUpdates",
-      ":separatePatchReleases",
-      "npm:unpublishSafe"
+      ":separatePatchReleases"
     ]
   },
+  "packageRules": [
+    {
+      "matchDatasources": ["npm"],
+      "stabilityDays": 3
+    }
+  ],
   "labels": ["renovate"]
 }
